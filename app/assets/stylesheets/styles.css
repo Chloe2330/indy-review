@@ -3,14 +3,18 @@
   align-items: center;
 }
 
+#header-container img {
+  margin-left: 10px;
+}
+
 h1 {
   color:navy;
-  text-shadow: 
-    0 0 5px gold,
-    0 0 10px #f4d942,
-    0 0 20px #f5de67,
-    0 0 40px #f6e68c,
-    0 0 80px #f7edc1,
-    0 0 120px #f8f5e6,
-    0 0 150px #fafcff;
+  text-shadow: 0 0 5px red,
+  0 0 10px #ff4455,
+  0 0 20px #ff6688,
+  0 0 40px #ff88aa,
+  0 0 80px #ffaacc,
+  0 0 120px #ffddee,
+  0 0 150px #ffefff;
 }
+
