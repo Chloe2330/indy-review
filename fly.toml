@@ -1,0 +1,23 @@
+# fly.toml app configuration file generated for indy-review on 2023-05-22T17:28:06-07:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "indy-review"
+primary_region = "lax"
+console_command = "/rails/bin/rails console"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+
+[[statics]]
+  guest_path = "/rails/public"
+  url_prefix = "/"
+
+[mounts]
+  source="chloeiscalm_indy_review_data"
+  destination="/data"
