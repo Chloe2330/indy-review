@@ -2,10 +2,6 @@
 
 Documenting places and experiences in Indianapolis, Indiana (Summer 2023)
 
-PostgreSQL
+Deployed [here](indy-review.fly.dev) with fly.io
 
-Ruby on Rails
-
-HTML/CSS/JS
-
-Deployed on fly.io: indy-review.fly.dev
+PostgreSQL, Ruby on Rails, HTML/CSS/JS
