@@ -19,4 +19,6 @@
     <%= review.review %>
   </p>
 
+  <%= image_tag(post.image, width: 300) if post.image.attached? %>
+
 </div>
