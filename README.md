@@ -1,4 +1,4 @@
-# IndyReview (Basic RoR CRUD App)
+# IndyReview
 
 Documenting places and experiences in Indianapolis, Indiana (Summer 2023)
 
